@@ -10,10 +10,10 @@
 		DE7A202019636ACA00C6A474 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7A201F19636ACA00C6A474 /* main.m */; };
 		DE7A202319636ACA00C6A474 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7A202219636ACA00C6A474 /* AppDelegate.m */; };
 		DE7A202619636ACA00C6A474 /* Table_View_Solution.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE7A202419636ACA00C6A474 /* Table_View_Solution.xcdatamodeld */; };
-		DE7A202919636ACA00C6A474 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7A202819636ACA00C6A474 /* ViewController.m */; };
 		DE7A202C19636ACA00C6A474 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7A202A19636ACA00C6A474 /* Main.storyboard */; };
 		DE7A202E19636ACA00C6A474 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7A202D19636ACA00C6A474 /* Images.xcassets */; };
 		DE7A203A19636ACA00C6A474 /* Table_View_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7A203919636ACA00C6A474 /* Table_View_SolutionTests.m */; };
+		DE7A204519636D7F00C6A474 /* myTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7A204419636D7F00C6A474 /* myTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +33,13 @@
 		DE7A202119636ACA00C6A474 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE7A202219636ACA00C6A474 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DE7A202519636ACA00C6A474 /* Table_View_Solution.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Table_View_Solution.xcdatamodel; sourceTree = "<group>"; };
-		DE7A202719636ACA00C6A474 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DE7A202819636ACA00C6A474 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DE7A202B19636ACA00C6A474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE7A202D19636ACA00C6A474 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DE7A203319636ACA00C6A474 /* Table View SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table View SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7A203819636ACA00C6A474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE7A203919636ACA00C6A474 /* Table_View_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Table_View_SolutionTests.m; sourceTree = "<group>"; };
+		DE7A204319636D7F00C6A474 /* myTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myTableViewController.h; path = ../myTableViewController.h; sourceTree = "<group>"; };
+		DE7A204419636D7F00C6A474 /* myTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myTableViewController.m; path = ../myTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 			children = (
 				DE7A202119636ACA00C6A474 /* AppDelegate.h */,
 				DE7A202219636ACA00C6A474 /* AppDelegate.m */,
-				DE7A202719636ACA00C6A474 /* ViewController.h */,
-				DE7A202819636ACA00C6A474 /* ViewController.m */,
 				DE7A202A19636ACA00C6A474 /* Main.storyboard */,
+				DE7A204319636D7F00C6A474 /* myTableViewController.h */,
+				DE7A204419636D7F00C6A474 /* myTableViewController.m */,
 				DE7A202D19636ACA00C6A474 /* Images.xcassets */,
 				DE7A202419636ACA00C6A474 /* Table_View_Solution.xcdatamodeld */,
 				DE7A201D19636ACA00C6A474 /* Supporting Files */,
@@ -220,8 +220,8 @@
 			files = (
 				DE7A202319636ACA00C6A474 /* AppDelegate.m in Sources */,
 				DE7A202619636ACA00C6A474 /* Table_View_Solution.xcdatamodeld in Sources */,
-				DE7A202919636ACA00C6A474 /* ViewController.m in Sources */,
 				DE7A202019636ACA00C6A474 /* main.m in Sources */,
+				DE7A204519636D7F00C6A474 /* myTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

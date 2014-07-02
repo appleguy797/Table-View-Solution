@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  myTableViewController.h
 //  Table View Solution
 //
 //  Created by Dice's on 7/1/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface myTableViewController : UITableViewController
 
 @end
-
